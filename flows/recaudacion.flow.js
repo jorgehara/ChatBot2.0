@@ -1,4 +1,5 @@
 const { addKeyword } = require('@bot-whatsapp/bot');
+const { formFlow } = require("./form.flow.js");
 
 const flowRecaudacion1 = addKeyword("1")
   .addAnswer("🏡 *INMUEBLE Y SERVICIOS GENERALES* 🏡\n\n⚠️ *En el caso de no aparecer dicho inmueble, se tendrá que solicitar ALTA DE INMUEBLE.* ⚠️\n\n📅 *Fechas de pago:* 📅\n\n1️⃣ *Pago 1er cuota Inmobiliario y Servicios Generales*\n📅 Vto. 15/04/2024\n\n2️⃣ *Pago 2da cuota Inmobiliario y Servicios Generales*\n📅 Vto. 15/06/2024\n\n3️⃣ *Pago 3ra cuota Inmobiliario y Servicios Generales*\n📅 Vto. 15/08/2024\n\n4️⃣ *Pago 4ta cuota Inmobiliario y Servicios Generales*\n📅 Vto. 15/10/2024\n\n5️⃣ *Pago 5ta cuota Inmobiliario y Servicios Generales*\n📅 Vto. 15/12/2024")
@@ -40,16 +41,29 @@ const flowRecaudacion6 = addKeyword("6") //Opcion 3 del menu
     await ctxFn.gotoFlow(menuFlow);
   });
 const flowRecaudacion7 = addKeyword("7") //Opcion 3 del menu
-.addAnswer("🎭 *ESPECTÁCULOS PÚBLICOS* 🎭\n\n📄 *Requisito:* 📄\n\n- Presentar NOTAR por duplicado.")
+.addAnswer("🎭 *ESPECTÁCULOS PÚBLICOS* 🎭\n\n📄 *Requisito:* 📄\n\n- Presentar NOTA por duplicado.")
 .addAction(async (ctx, ctxFn) => {
     const menuFlow = await import('./menu.flow.js').then(mod => mod.menuFlow);
     await ctxFn.gotoFlow(menuFlow);
   });
-const flowRecaudacion8 = addKeyword("4") //Opcion 4 del menu
-    .addAnswer("📢 *Consultas, Sugerencias o Reclamos* 📢\n\n✉️ ¡Estamos aquí para ayudarte! Si tienes alguna consulta, sugerencia o reclamo, no dudes en contactarnos.")
-    .addAction(async (ctx, ctxFn) => {
-        await ctxFn.gotoFlow(formFlow)
-    })
+// const flowRecaudacion8 = addKeyword("4") //Opcion 4 del menu
+//     .addAnswer("📢 *Consultas, Sugerencias o Reclamos* 📢\n\n✉️ ¡Estamos aquí para ayudarte! Si tienes alguna consulta, sugerencia o reclamo, no dudes en contactarnos.")
+//     .addAction(async (ctx, ctxFn) => {
+//         await ctxFn.gotoFlow(formFlow)
+//     })
+
+  //   const flowRecaudacion8 = addKeyword("4") //Opcion 4 del menu
+  // .addAnswer("Excelente, para eso te voy a hacer 3 preguntas")
+  // .addAction(async (ctx, ctxFn) => {
+  //   await ctxFn.gotoFlow(formFlow);
+  // });
+
+  const flowRecaudacion8 = addKeyword("8") //Opcion 4 del menu
+  .addAnswer("📢 *Consultas, Sugerencias o Reclamos* 📢\n\n✉️ ¡Estamos aquí para ayudarte!\nDejaremos asentado su consulta, sugerencia o reclamo, luego de unas breves preguntas...")
+  .addAction(async (ctx, ctxFn) => {
+    const formFlow = await import('./form.flow.js').then(mod => mod.formFlow);
+    await ctxFn.gotoFlow(formFlow);
+  });
 
 module.exports = {
   flowRecaudacion1,
@@ -59,5 +73,5 @@ module.exports = {
     flowRecaudacion5,
     flowRecaudacion6,
     flowRecaudacion7,
-    flowRecaudacion8
+    flowRecaudacion8,
 };

@@ -32,7 +32,25 @@ const flow1 = addKeyword("1") //Opcion 1 del menu
     }
   );
 
-const menuRecaudacion = addKeyword("2") //Opcion 2 del menu
+
+
+const flow3 = addKeyword("3") //Opcion 3 del menu
+  .addAnswer(
+    "Recordá que si quieres conocer sobre la información que puedo brindarte puedes escribir *Menu* y te mostraré las opciones disponibles 😊...¿En qué te puedo ayudar?",
+    { capture: true },
+    async (ctx, ctxFn) => {
+      await ctxFn.gotoFlow(gptFlow);
+    }
+  );
+
+const flow4 = addKeyword("4") //Opcion 4 del menu
+  .addAnswer("Excelente, para eso te voy a hacer 3 preguntas")
+  .addAction(async (ctx, ctxFn) => {
+    await ctxFn.gotoFlow(formFlow);
+  });
+
+
+  const menuRecaudacion = addKeyword("2") //Opcion 2 del menu
   .addAnswer(
     menuTextRecaudacion,
     { capture: true },
@@ -49,25 +67,9 @@ const menuRecaudacion = addKeyword("2") //Opcion 2 del menu
         );
       }
     },
-    [flowRecaudacion1, flowRecaudacion2, flowRecaudacion3, flowRecaudacion4, flowRecaudacion5, flowRecaudacion6, flowRecaudacion7, flowRecaudacion8
-
+    [flowRecaudacion1, flowRecaudacion2, flowRecaudacion3, flowRecaudacion4, flowRecaudacion5, flowRecaudacion6, flowRecaudacion7, flowRecaudacion8,
     ]
   );
-
-const flow3 = addKeyword("3") //Opcion 3 del menu
-  .addAnswer(
-    "Recordá que si quieres conocer sobre la información que puedo brindarte puedes escribir *Menu* y te mostraré las opciones disponibles 😊...¿En qué te puedo ayudar?",
-    { capture: true },
-    async (ctx, ctxFn) => {
-      await ctxFn.gotoFlow(gptFlow);
-    }
-  );
-
-const flow4 = addKeyword("4") //Opcion 4 del menu
-  .addAnswer("Excelente, para eso te voy a hacer 3 preguntas")
-  .addAction(async (ctx, ctxFn) => {
-    await ctxFn.gotoFlow(formFlow);
-  });
 
 const menuFlow = addKeyword(EVENTS.ACTION).addAnswer(
   menuText,
@@ -87,5 +89,7 @@ const menuFlow = addKeyword(EVENTS.ACTION).addAnswer(
   },
   [flow1, menuRecaudacion, flow3, flow4]
 );
+
+
 
 module.exports = { menuFlow, menuRecaudacion };

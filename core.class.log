@@ -1,0 +1,446 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0BA0E5816B1A055E8E3',
+    participant: undefined
+  },
+  messageTimestamp: 1721576054,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'menu',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17759235-5135-46f5-9d08-7d399452118e',
+  keyword: 'key_5278a260-dff5-4dd0-8005-376bd5e6f71f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a27efb15c85976d143528ad4a66b463e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0508872F1A25F71D6A1',
+    participant: undefined
+  },
+  messageTimestamp: 1721576055,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      type: 4,
+      ephemeralExpiration: 0,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: '',
+  from: '5493794051686'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CE2263DE4CCA18C9B8',
+    participant: undefined
+  },
+  messageTimestamp: 1721576059,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: '2',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6e63b36f-a72b-4210-b872-c2f038c8b487',
+  keyword: 'key_0367b273-0bb3-4827-870b-d9b60e121ffc',
+  answer: '👉 *Menú Recaudación*\n' +
+    '\n' +
+    '*Elige una opción escribiendo el número correspondiente y te ayudaré* 😊\n' +
+    '\n' +
+    '1️⃣ - *🏡Inmueble y Servicios Generales*\n' +
+    '2️⃣ - *🚗 Patentamiento*\n' +
+    '3️⃣ - *⚰️ Cementerio*\n' +
+    '4️⃣ - *🏢 Habilitación Comercial*\n' +
+    '5️⃣ - *📅 Fechas de Pagos Comercial*\n' +
+    '6️⃣ - *🚗 Solicitud/Renovación Registros de Conductor Automotores*\n' +
+    '7️⃣ - *🎭 Espectáculos Públicos*\n' +
+    '8️⃣ - *📢 Consultas, Sugerencias o Reclamos*\n' +
+    '0️⃣ - *🔙 Volver al Menú Principal 🔙*\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '8f47bb0bacbcacbfe1a403244cdaf4d5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04E8CDFCD5F58A99787',
+    participant: undefined
+  },
+  messageTimestamp: 1721576061,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: '8',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: '8',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_04a9d3e6-df1b-47b4-866a-0bee85ad5533',
+  keyword: 'key_6ec0660e-1371-4070-b310-ea87c2237bd8',
+  answer: '📢 *Consultas, Sugerencias o Reclamos* 📢\n' +
+    '\n' +
+    '✉️ ¡Estamos aquí para ayudarte!\n' +
+    'Dejaremos asentado su consulta, sugerencia o reclamo, luego de unas breves preguntas...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '40353a1e663e4897cc0b0935138c19c2'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e34f839e-5e59-4dee-8d8d-51b9b0aacebf',
+  keyword: 'ans_04a9d3e6-df1b-47b4-866a-0bee85ad5533',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3ab78e78fbc6be1d9f0ebfa1e2eb0d7f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09278828EC2603CBC67',
+    participant: undefined
+  },
+  messageTimestamp: 1721576065,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'fda',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'fda',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c30686e8-effe-42e8-8099-7ee52f22746a',
+  keyword: 'ans_418d3df9-fded-468e-87e9-d08ffcbd73ef',
+  answer: '👋 encantado de conocerte. Brindame tu número teléfonico 📲 o 📧Email',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '66b02f36354834c1f59caabef1ca2acd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB043DFFE488EC96DD9E0',
+    participant: undefined
+  },
+  messageTimestamp: 1721576070,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'dsada',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'dsada',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9f90f494-ed0b-44dc-8420-0c1ce8fc66f8',
+  keyword: 'ans_c30686e8-effe-42e8-8099-7ee52f22746a',
+  answer: '✍ ¿Cuál es el motivo de tu consulta/reclamo/sugerencia? *Tomate tu tiempo* para detallarnos lo que necesitas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '76954a68a549a5a7559285ccd3fb01ba'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07C0DB7ECE326CACDAE',
+    participant: undefined
+  },
+  messageTimestamp: 1721576113,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'sdfdfsdf',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'sdfdfsdf',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d49f5e16-ee20-4bee-a1c1-85638ac51d27',
+  keyword: 'ans_9f90f494-ed0b-44dc-8420-0c1ce8fc66f8',
+  answer: '🤗¡Gracias por la información! Notificaré al Área correspondiente a la brevedad.\n' +
+    'Si tienes otra consulta puedes escribir *Menu*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '6cde0de5e61fac72632492284bc98ac6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07EA79E6BB342E0ECA9',
+    participant: undefined
+  },
+  messageTimestamp: 1721576174,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'dsadas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'dsadas',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17759235-5135-46f5-9d08-7d399452118e',
+  keyword: 'key_5278a260-dff5-4dd0-8005-376bd5e6f71f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a27efb15c85976d143528ad4a66b463e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0340539764FD1D363F0',
+    participant: undefined
+  },
+  messageTimestamp: 1721576177,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      type: 4,
+      ephemeralExpiration: 0,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: '',
+  from: '5493794051686'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B2DDDA4217084CACC4',
+    participant: undefined
+  },
+  messageTimestamp: 1721576192,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'planes sociales',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'planes sociales',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17759235-5135-46f5-9d08-7d399452118e',
+  keyword: 'key_5278a260-dff5-4dd0-8005-376bd5e6f71f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a27efb15c85976d143528ad4a66b463e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493794051686@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03895C8637D39C8633C',
+    participant: undefined
+  },
+  messageTimestamp: 1721576229,
+  pushName: 'Jorge Jara',
+  broadcast: false,
+  message: Message {
+    conversation: 'que son los planes sociales',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Jorge Jara',
+  body: 'que son los planes sociales',
+  from: '5493794051686'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_17759235-5135-46f5-9d08-7d399452118e',
+  keyword: 'key_5278a260-dff5-4dd0-8005-376bd5e6f71f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a27efb15c85976d143528ad4a66b463e'
+}
