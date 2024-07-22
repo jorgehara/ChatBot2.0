@@ -1,13 +1,14 @@
-👉 *Menú Recaudación*
+💰 *Menú Recaudación*
 
-*Elige una opción escribiendo el número correspondiente y te ayudaré* 😊
+Elige una opción escribiendo el número correspondiente y te ayudaré 😊
 
-1️⃣ - *🏡Inmueble y Servicios Generales*
-2️⃣ - *🚗 Patentamiento*
-3️⃣ - *⚰️ Cementerio*
-4️⃣ - *🏢 Habilitación Comercial*
-5️⃣ - *📅 Fechas de Pagos Comercial*
-6️⃣ - *🚗 Solicitud/Renovación Registros de Conductor Automotores*
-7️⃣ - *🎭 Espectáculos Públicos*
-8️⃣ - *📢 Consultas, Sugerencias o Reclamos*
-0️⃣ - *🔙 Volver al Menú Principal 🔙*
+1️⃣ - 🏡  Inmueble y Servicios Generales
+2️⃣ - 🚗  Patentamiento
+3️⃣ - ⚰️  Cementerio
+4️⃣ - 🏢  Habilitación Comercial
+5️⃣ - 📅  Fechas de Pagos Comercial
+6️⃣ - 🚗  Solicitud/Renovación Registros de Conductor Automotores
+7️⃣ - 🎭  Espectáculos Públicos
+8️⃣ - 💧  Reparto y venta de Agua
+9️⃣ - 📢  Consultas, Sugerencias o Reclamos
+0️⃣ - 🔙  Volver al Menú Principal 🔙

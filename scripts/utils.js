@@ -1,3 +1,4 @@
+//Accedemos desde el cliente con !Help !onoff para pausar el chatbot
 //Bot Global esta activo?
 const isActive = async (ctx, ctxFn) => {
     let currentGlobalState = await ctxFn.globalState.getMyState();

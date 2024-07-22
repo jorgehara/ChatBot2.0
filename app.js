@@ -39,10 +39,15 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME) //Este es el flujo por donde pa
         } //Si, el bot tiene que contestar
 
         //Tercero, el usuario esta saludando?
-        const keywords = ["hola", "buenas", "ola"];
+        const welcomeArray = [
+            "hola", "buenas", "buenos días", "buenas tardes", "buenas noches",
+            "hola nico", "ola", "ola nico", "hi", "ole"
+          ].map(saludo => saludo.toLowerCase());
+
+        const keywords = [...new Set(welcomeArray)]
         const bodyText = ctx.body.toLowerCase();
         const containsKeyword = keywords.some(keyword => bodyText.includes(keyword));
-        if (containsKeyword && ctx.body.length < 8) {
+        if (containsKeyword) {
             return await ctxFn.gotoFlow(welcomeFlow) //Si, esta saludando
         } //No, no esta saludando
 
@@ -53,9 +58,6 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME) //Este es el flujo por donde pa
             return ctxFn.gotoFlow(menuFlow) //Si, quiere abrir el menu
         }
     })
-
-
-
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([flowPrincipal, voiceNoteFlow, menuFlow, formFlow, welcomeFlow, gptFlow, adminFlow, sendPdfFlow])
